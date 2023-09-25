@@ -11,19 +11,25 @@ body{
 #container{
 	display: flex;
 	text-align: center;
+	justify-content: center;
+}
+#container>div{
+	background-color: white;
+	margin :5px;
+	border-radius: 20px;
+	padding-top: 20px;
 }
 .latest-news-section{
-/* 	flex:1; */
-	
-	background-color: white;
+	flex:1;
 }
 .main-news-section{
-/* 	flex:2; */
+	flex:2;
 }
 .pictorial-news-section{
-/* 	flex:1; */
+	flex:1;
 }
 img{
-/* 	width: 100%;
-	height: 100px; */
+	width: 90%;
+	height: 100px;
+	margin : 10px;
 }
